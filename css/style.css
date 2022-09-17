@@ -1,0 +1,56 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-size: 1vw;
+}
+header {
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url(../images/home.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-top: 150px;
+}
+header nav {
+	border-bottom: 3px solid #0d6efd;
+}
+
+header .leftSide h1 {
+	font-size: 4em;
+	font-weight: 100;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 150%;
+}
+ul {
+	list-style: none;
+}
+
+.info ul li {
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	display: flex;
+}
+.info ul li span {
+	display: inline-block;
+	font-size: 2.5em;
+	margin-right: 30px;
+}
+.card {
+	width: 80%;
+}
+#explore {
+	height: 35vh;
+	background-color: #333333;
+	color: whitesmoke;
+}
+section .container {
+	font-size: 1.3em;
+}
+section {
+	height: auto;
+}
+footer {
+	height: 12vh;
+	background-color: #373a3e;
+}
